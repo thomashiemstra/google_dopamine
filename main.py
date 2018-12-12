@@ -50,9 +50,9 @@ random_dqn_runner = run_experiment.Runner(BASE_PATH,
                                           )
 
 # @title Train MyRandomDQNAgent.
-print('Will train agent, please be patient, may be a while...')
-random_dqn_runner.run_experiment()
-print('Done training!')
+# print('Will train agent, please be patient, may be a while...')
+# random_dqn_runner.run_experiment()
+# print('Done training!')
 
 
 
@@ -85,3 +85,5 @@ def generate_results_html():
 
 
     display_frames_as_gif(frames)
+
+generate_results_html()
